@@ -1,5 +1,5 @@
 {
-  "name": "app-movil",
+  "name": "PetManager",
   "integrations": {
     "capacitor": {}
   },
