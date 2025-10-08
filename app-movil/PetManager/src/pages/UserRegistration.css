@@ -1,0 +1,69 @@
+/* src/pages/UserRegistration.css */
+
+/* --- Título y Cabecera --- */
+.user-registration-header ion-title {
+    font-weight: 600;
+    padding-left: 0;
+}
+
+/* --- Listas y Campos --- */
+ion-list.user-form-list {
+    background: transparent;
+    padding: 0 16px;
+    /* Para centrar los campos en el contenedor */
+}
+
+ion-item {
+    --padding-start: 0;
+    --inner-padding-end: 0;
+    /* Estilo sutil para simular el campo en el prototipo */
+    --border-color: var(--ion-color-step-150, #d7d8da);
+    --highlight-background: transparent;
+}
+
+/* Estilo para los IonSelect (Rol y Estado) */
+ion-select {
+    width: 100%;
+}
+
+/* Estilo para el campo de estado (Activo/Inactivo) */
+.user-form-state ion-label {
+    min-width: 80px;
+}
+
+/* --- Área de Carga de Foto --- */
+.photo-upload-container {
+    margin: 20px 16px;
+    padding: 40px 20px;
+    border: 2px dashed var(--ion-color-medium);
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    background: var(--ion-color-step-050, #f8f8f8);
+}
+
+.photo-upload-container ion-icon {
+    font-size: 3em;
+    color: var(--ion-color-medium);
+}
+
+.photo-upload-container p {
+    color: var(--ion-color-medium);
+    font-size: 0.9em;
+    margin: 5px 0 0 0;
+}
+
+/* Etiqueta de 'Foto (Opcional)' */
+.photo-label {
+    color: var(--ion-color-medium);
+    font-size: 0.9em;
+    text-align: left;
+    margin: 10px 16px 0 16px;
+}
+
+/* --- Botón Guardar --- */
+.user-form-save-button {
+    margin: 20px 16px;
+    height: 50px;
+    font-weight: bold;
+}
