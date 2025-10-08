@@ -1,0 +1,7 @@
+{
+  "name": "PetManager",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
